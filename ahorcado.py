@@ -1,5 +1,6 @@
 #Ahorcado
 #Joshua Avalos
+import funciones_ahorcado
 print ("Bienvenidos al ahorcado de Naruto.")
 palabras=["de",
 "la",
@@ -499,3 +500,7 @@ palabras=["de",
 "organizacion",
 "nuevas",
 "calidad"]
+pal=(funciones_ahorcado.get_palabra(palabras))
+print ("_ "*len(pal))
+pala=list(pal)
+while
