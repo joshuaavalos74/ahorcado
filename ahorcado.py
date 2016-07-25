@@ -502,5 +502,10 @@ palabras=["de",
 "calidad"]
 pal=(funciones_ahorcado.get_palabra(palabras))
 print ("_ "*len(pal))
+print (pal)
 pala=list(pal)
-while
+intento=input("Ingrese la letra: ")
+
+	if pala[0] == intento : 
+		print ("Loca fiera.")
+	elif 	
